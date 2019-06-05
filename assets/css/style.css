@@ -1,0 +1,311 @@
+*{
+    box-sizing:border-box;
+    }
+
+h1, h2{
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+body{
+    background-image: url("../images/sakura.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #777777;
+    line-height:1.5;
+}
+
+
+
+.name{
+    float: left;
+    background-color: #4aaaa6;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 16.5px 0;
+    width: 300px;
+    }
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #FFD8D6;
+}
+
+/* box around text and pictures */
+
+.title {
+    color: #4aaaa6;
+    margin-left: 48px;
+}
+
+.divider {
+    border: 2px solid #dedede;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 5%
+   }
+
+/* Links at top of page */
+
+.link {
+    margin-top: 20px;
+    color: #c3cdd2;
+    font-size: 15px;
+    text-decoration: none;
+   }
+
+.top {
+    background-color: #ffffff;
+    border-bottom: 2px #d7d7d7 solid;
+    margin-bottom: 20px;
+    height:69.5px;
+    }
+
+.portfolio{
+    float: right;
+    padding:10px 25px 0px 25px;
+    border-left: 2px #f5f5f5 solid;
+}
+
+.portfolio:hover{
+    color: #FFD4D8;
+}
+
+.contact{
+    float: right;
+    padding:10px 0px 0px 25px;
+    border-left: 2px #f5f5f5 solid;
+}
+
+.contact:hover{
+    color: #FFD4D8;
+}
+
+.about{
+    float: right;
+    padding:10px 25px 0px 25px;
+        }
+
+.about:hover{
+    color: #FFD4D8;
+}
+
+/* form and button on contact page */
+
+.form {
+    margin-left: 48px;
+    }
+
+#submit {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: #4aaaa6;
+    border: 0px;
+    padding: 5px 15px;
+    color: white;
+    }
+
+#submit:hover {
+    background:#1C403E;
+    color:gray;
+}
+
+/* index page top */
+
+#teddy {
+    float: left;
+    background-color: #4aaaa6;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 9.5px 0;
+    width: 300px;
+}
+
+#space {
+    background-color: #ffffff;
+    border-bottom: 2px #d7d7d7 solid;
+    margin-bottom: 20px;
+    height:78.5px;
+}
+
+/* index page bio */
+
+#headshot{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 251px;
+    margin-left: 49px;
+    margin-top: 5px;
+}
+
+.bio {
+    line-height: 1.7;
+    position:relative;
+    left: 20px;
+    max-width: 865px;
+    color: #c3bbc4;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+
+#third {
+    left: 50px;
+    max-width: 850px;
+}
+
+/* portfolio page */
+
+.boxes {
+    clear: both;
+    width: 960px;
+    margin: 0 auto;
+    position:relative;
+}
+
+.absolute {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #FFD8D6;
+    position:absolute;
+    height:850px;
+    }
+
+/* portfolio images */
+
+#pic1{
+    left: 50px;
+    position: absolute;
+}
+
+#pic2{
+    left: 370px;
+    position: absolute;
+}
+
+#pic3{
+    left: 50px;
+    position: absolute;
+    top: 350px;
+}
+
+#pic4{
+    position: absolute;
+    top: 350px;
+    left: 370px;
+}
+
+#pic5{
+    bottom: 50px;
+    position: absolute;
+    left: 50px;
+}
+
+/* portfolio picture text */
+
+#hangman{
+    z-index: 500000;
+    left: 50px;
+    top: 265px;
+    position: absolute;
+    background: #4aaaa6;
+    color: white;
+    padding: 5px 103px;
+}
+
+#rpg{
+    z-index: 500000;
+    left: 370px;
+    top: 265px;
+    position: absolute;
+    background: #4aaaa6;
+    color: white;
+    padding: 5px 96px;
+}
+
+#trivia{
+    z-index: 500000;
+    left: 50px;
+    top: 515px;
+    position: absolute;
+    background: #4aaaa6;
+    color: white;
+    padding: 5px 94.5px
+}
+
+#rutgers{
+    left: 370px;
+    position: absolute;
+    top: 510px;
+    background: #4aaaa6;
+    color: white;
+    padding: 5px 66.5px;
+}
+
+#rps{
+    position: absolute;
+    left: 50px;
+    padding: 5px 63.5px;
+    background: #4aaaa6;
+    color: white;
+    bottom: 55px;
+    }
+
+/* sticky footer */
+
+.bottom{
+    border-top: 8px solid #4aaaa5;
+    background: #666666;
+    color: #b3a398;
+    font-size:12px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+       }
+
+    /* Another attempt at a sticky footer */
+
+html, body {
+        height:100%
+    }
+    
+body {
+    display: flex;
+    flex-direction:column;
+    }
+    
+.pizza { 
+    flex: 1 0 auto;
+}
+.bottom {
+        flex-shrink:0;
+        margin-top: 25px;
+}
+
+.content {
+        height: 850px;
+        margin-bottom: 25px;
+}
+    /* screwing around with hover on images */
+
+img:hover {
+    outline: 5px solid #4aaaa6;
+    outline-offset: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    float: right;
+}
+
+span {
+    float: right;
+}
