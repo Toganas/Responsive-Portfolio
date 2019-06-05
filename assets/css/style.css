@@ -313,11 +313,7 @@ span {
 /* media queries */
 
 @media screen and (max-width:980px){
-
-}
-
-@media screen and (max-width: 768px){
-    .top{
+ .top{
         width:100%;
     }
     .boxes{
@@ -325,8 +321,26 @@ span {
     }
     .container{
         width:100%
+}
+.absolute{
+    width:100%;
+}
+
+@media screen and (max-width: 768px){
+    .top{
+        width:95%;
     }
-    #third{
-        width:100%
+    .boxes{
+        width:100%;
     }
+    .container{
+        width:100%;
+    }
+
+    .bio{
+        width:80%;
+        margin-left: 20px;
+    }
+
+   
 }
