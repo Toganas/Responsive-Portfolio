@@ -312,3 +312,21 @@ span {
 
 /* media queries */
 
+@media screen and (max-width:980px){
+
+}
+
+@media screen and (max-width: 768px){
+    .top{
+        width:100%;
+    }
+    .boxes{
+        width:100%;
+    }
+    .container{
+        width:100%
+    }
+    #third{
+        width:100%
+    }
+}
