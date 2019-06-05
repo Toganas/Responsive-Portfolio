@@ -325,10 +325,11 @@ span {
 .absolute{
     width:100%;
 }
+}
 
 @media screen and (max-width: 768px){
     .top{
-        width:95%;
+        width:100%;
     }
     .boxes{
         width:100%;
@@ -342,5 +343,93 @@ span {
         margin-left: 20px;
     }
 
-   
+    #third{
+        width:90%;
+    }
+}
+
+@media screen and (max-width: 640px){
+     .top{
+        width:100%;
+    }
+    .boxes{
+        width:100%;
+    }
+    .container{
+        width:100%
+}
+#pic1{
+    left: 5%;
+    position: absolute;
+}
+
+#pic2{
+    left: 55%;
+    position: absolute;
+}
+
+#pic3{
+    left: 5%;
+    position: absolute;
+    top: 350px;
+}
+
+#pic4{
+    position: absolute;
+    top: 350px;
+    left: 55%;
+}
+
+#pic5{
+    bottom: 50px;
+    position: absolute;
+    left: 5%;
+
+}
+#hangman{
+    z-index: 500000;
+    left: 5%;
+    top: 265px;
+    position: absolute;
+    background: #4aaaa6;
+    color: white;
+    padding: 5px 103px;
+}
+#rpg{
+    z-index: 500000;
+    left: 55%;
+    top: 265px;
+    position: absolute;
+    background: #4aaaa6;
+    color: white;
+    padding: 5px 96px;
+}
+
+#trivia{
+    z-index: 500000;
+    left: 5%;
+    top: 515px;
+    position: absolute;
+    background: #4aaaa6;
+    color: white;
+    padding: 5px 94.5px
+}
+
+#rutgers{
+    left: 55%;
+    position: absolute;
+    top: 510px;
+    background: #4aaaa6;
+    color: white;
+    padding: 5px 66.5px;
+}
+
+#rps{
+    position: absolute;
+    left: 5%;
+    padding: 5px 63.5px;
+    background: #4aaaa6;
+    color: white;
+    bottom: 55px;
+    }
 }
